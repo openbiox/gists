@@ -1,0 +1,5 @@
+#!/usr/bin/env Rscript
+if (!requireNamespace("pacman"))
+    install.packages("pacman")
+pacman::p_load('formatR')
+formatR::tidy_dir('.', indent = 2)

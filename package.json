@@ -1,0 +1,13 @@
+{
+  "name": "openbiox-gists",
+  "version": "0.1.0",
+  "description": "A community-curated gists for various bioinformatics data analysis tasks (e.g. Shell, R, Python, and others).",
+  "main": "index.js",
+  "repository": "git@github.com:openbiox/openbiox-gists.git",
+  "author": "lee_jianfeng@openbiox.org",
+  "license": "Apache-2.0",
+  "private": false,
+  "bin": {
+    "openbiox-formatr": "./bin/openbiox-formatr"
+  }
+}
