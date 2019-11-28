@@ -15,13 +15,13 @@ spack env activate base
 # spack install golang npm
 
 # fetch data
-spack install sra-tools
+spack install sra-toolkit
 
 # QC
 spack install fastqc rna-seqc
 
 # alignment
-spack install bwa bowtie2 star hisat2 gmap-gsnap tophat
+spack install bwa bowtie2 star hisat2 gmap-gsnap tophat blat
 
 # sequence and region manipulation
 spack install htslib samtools bedtools2 bedops bamtools seqtk
